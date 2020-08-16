@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+body{
+    background-image: url(Image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+.WEB-DEV-CREATIONS{
+    background: rgb(0,100,0);
+    text-align: center;
+
+}
+.WEB-DEV-CREATIONS ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+.WEB-DEV-CREATIONS ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.WEB-DEV-CREATIONS ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .WEB-DEV-CREATIONS ul li:hover{
+    background: #2bab0d;
+    border-radius: auto;
+    width: auto;
+    height: auto;
+}
+.WEB-DEV-CREATIONS .fa{
+    margin-right: 8px;
+}
+.WEB-DEV-CREATIONS-SUB-1{
+    display: none;
+}
+.WEB-DEV-CREATIONS ul li:hover .WEB-DEV-CREATIONS-SUB-1{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.WEB-DEV-CREATIONS ul li:hover .WEB-DEV-CREATIONS-SUB-1 ul{
+    display: block;
+    margin: 10px;
+}
+.WEB-DEV-CREATIONS ul li:hover .WEB-DEV-CREATIONS-SUB-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.WEB-DEV-CREATIONS ul li:hover .WEB-DEV-CREATIONS-SUB-1 ul li:last-child{
+    border-bottom: none;
+}
+.WEB-DEV-CREATIONS ul li:hover .WEB-DEV-CREATIONS-SUB-1 ul li a:hover{
+    color: #b2ff00;
+}
+.fa-angle-right{
+    float: right;
+}
+.WEB-DEV-CREATIONS-SUB-2{
+    display: none;
+}
+.hover-me:hover .WEB-DEV-CREATIONS-SUB-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+} m jn
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #b2ff00;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
